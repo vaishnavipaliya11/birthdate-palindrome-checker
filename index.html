@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>bp</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+
+        <div class="top-heading">
+          Birthdate Palindrome Checker
+        </div>
+
+        <section class="top">
+        <h1>let's play the game</h1>
+        <p> Palindrome  number is the number which is same when written forward
+        or backward. eg: 111,131, </p>
+        <p> here, it is considered to be a date like 12-02-2021</p>
+
+      </section>
+    </div>
+
+    <div class="main">
+      <div class="userPart">
+        <h1>Select your birthdate and we will tell you if your birthdate
+        is palindrome or not</h1>
+        <p> The birthdate is checked in 3 formats mm-dd-yyyy,dd-mm-yyyy,
+         mm-dd-yy </p>
+         <input type="date"  id="userDate" name="userInput" value="userInput">
+         <br>
+         <button type="submit"  id= "btnFind"name="button"> find </button>
+
+      </div>
+      <div id="gif">
+        <img src="clock.gif" alt="">
+      </div>
+
+       <div class="output">
+
+       </div>
+    </div>
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>

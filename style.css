@@ -1,0 +1,90 @@
+:root{
+  --primary:#66263f;
+--secondary:#FBBF24;
+}
+
+body{
+  margin: auto;
+}
+
+.top-heading{
+  width: 100%;
+  height: 7vh;
+  color: white;
+  /* margin: 1rem; */
+  padding: 1rem;
+  background-color: var(--primary);
+  text-align: center;
+  font-size:2rem;
+  font-weight: bold;
+}
+
+.top{
+  background-color: var(--primary);
+  margin: auto;
+  max-width: 1000px;
+  max-height: 900px;
+  margin-top: 2rem;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+}
+
+p{
+  font-size: 1.5rem
+}
+
+h1{
+  font-size: 1.7rems
+}
+
+.anchor{
+  width: 15%;
+  height: 7%;
+  background-color: var(--secondary);
+  color:white;
+font-size: 1.5rem;
+font-weight: 700;
+margin: auto;
+border-radius: 25px;
+}
+
+.userPart{
+
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#gif{
+  margin: auto;
+  text-align: center;
+  max-width: 200px;
+  max-height: 150px;
+  display: none;
+}
+
+input{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin:0.5rem;
+  border-radius: 25px;
+}
+
+button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: var(--primary);
+  color: white;
+  width: 10%;
+  margin-top: 1rem
+}
+
+.output{
+  width: 40%;
+  height: 5vh;
+  border: 2px solid black;
+  padding:0.5rem;
+  margin: auto;
+  text-align: center;
+  display: none;
+}
